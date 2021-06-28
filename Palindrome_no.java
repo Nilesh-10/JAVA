@@ -1,9 +1,11 @@
-public class palindrome_no {
+import java.util.*;
+public class Palindrome_no {
     public static void main(String args[])
     {
         int num,rem,d,n;
-        num=351;
+        Scanner sc=new Scanner(System.in);
         rem=0;
+        num=sc.nextInt();
         n=num;
         while(n!=0)
         {
